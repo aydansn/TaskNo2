@@ -1,0 +1,335 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #3B5D50;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 70px;
+}
+header nav .nav-left {
+  color: white;
+  margin-top: 20px;
+}
+header nav .nav-left .logo {
+  font-size: 40px;
+}
+header nav .nav-right {
+  display: flex;
+}
+header nav .nav-right .list ul {
+  display: flex;
+  list-style: none;
+}
+header nav .nav-right .list ul li {
+  margin-right: 25px;
+  color: white;
+  font-size: 18px;
+}
+header nav .nav-right .icons {
+  display: flex;
+}
+header nav .nav-right .icons i {
+  margin: 0px 10px;
+  font-size: 20px;
+  color: white;
+}
+
+main {
+  width: 100%;
+}
+main #section1 {
+  width: 100%;
+  background-color: #3B5D50;
+  display: flex;
+  padding: 0px 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+main #section1 .main-left {
+  width: 40%;
+  align-items: center;
+}
+main #section1 .main-left h1 {
+  color: white;
+  margin: 30px 0px;
+  font-size: 50px;
+}
+main #section1 .main-left p {
+  color: gray;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+main #section1 .main-left .btn-one {
+  display: flex;
+}
+main #section1 .main-left .btn-one .btn-two {
+  background-color: #F8B810;
+  color: rgb(19, 18, 18);
+  padding: 15px 30px;
+  margin-right: 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+}
+main #section1 .main-left .btn-one .btn-three {
+  background-color: #3B5D50;
+  color: white;
+  padding: 15px 30px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  font-size: 15px;
+}
+main #section1 .main-right {
+  width: 60%;
+}
+main #section2 {
+  display: flex;
+  padding: 100px 50px;
+  background-color: #EFF2F1;
+}
+main #section2 .section2-left {
+  width: 50%;
+}
+main #section2 .section2-left h1 {
+  padding-bottom: 20px;
+}
+main #section2 .section2-left p {
+  padding-bottom: 50px;
+  color: gray;
+}
+main #section2 .section2-left .boxs {
+  display: flex;
+}
+main #section2 .section2-left .boxs i {
+  font-size: 25px;
+}
+main #section2 .section2-left .boxs .two-box {
+  margin-right: 70px;
+}
+main #section2 .section2-left .boxs .two-box h3 {
+  padding: 12px 0px;
+}
+main #section2 .section2-left .boxs .other-box h3 {
+  padding: 12px 0px;
+}
+main #section2 .section2-right {
+  width: 50%;
+}
+main #section2 .section2-right img {
+  width: 80%;
+  height: 90%;
+  border-radius: 20px;
+  margin-left: 100px;
+}
+main #section3 {
+  background-color: #EFF2F1;
+}
+main #section3 .text3 {
+  text-align: center;
+}
+main #section3 .fotos {
+  display: flex;
+  padding: 50px 50px;
+}
+main #section3 .fotos .foto {
+  margin: 10px 20px;
+}
+main #section3 .fotos .foto img {
+  width: 100%;
+}
+main #section3 .fotos .foto .lawson {
+  margin: 10px 0px 10px 0px;
+  font-size: 30px;
+}
+main #section3 .fotos .foto .ceo {
+  color: gray;
+}
+main #section3 .fotos .foto .separate {
+  color: gray;
+  padding: 20px 0px;
+}
+main #section4 {
+  background-color: #EFF2F1;
+  padding: 100px 50px;
+}
+main #section4 h1 {
+  text-align: center;
+  padding: 30px 0px;
+}
+main #section4 p {
+  padding: 20px 150px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 20px;
+  color: gray;
+}
+main #section4 .section4-foto {
+  display: flex;
+  justify-content: center !important;
+}
+main #section4 .section4-foto img {
+  border-radius: 50px;
+  width: 100px;
+}
+main #section4 .metn {
+  text-align: center;
+}
+main #section4 .metn h3 {
+  padding: 10px 0px;
+}
+main #section4 .metn span {
+  color: gray;
+}
+main #section5 {
+  background-color: #EFF2F1;
+}
+main #section5 .home-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 50px;
+}
+main #section5 .home-text .home-textone h1 {
+  color: #2F2F2F;
+}
+main #section5 .home-text .home-textone p {
+  color: #6A6A80;
+  margin: 15px 0px;
+}
+main #section5 .home-text .home-textone .btn-three {
+  background-color: #2F2F2F;
+  color: white;
+  padding: 15px 30px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  font-size: 15px;
+}
+main #section5 .home-text .home-img img {
+  width: 100%;
+}
+main #section5 .home-text .home-img p {
+  color: #2F2F2F;
+  margin: 10px 0px;
+  text-align: center;
+}
+main #section5 .home-text .home-img h3 {
+  text-align: center;
+  color: #2F2F2F;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 50px 0px 50px;
+}
+#footer .footer-left .footer-text {
+  display: flex;
+}
+#footer .footer-left .footer-text i {
+  padding-top: 5px;
+  padding-right: 5px;
+  font-size: 22px;
+  color: gray;
+}
+#footer .footer-left .footer-text h2 {
+  color: rgb(13, 97, 7);
+}
+#footer .footer-left .input1 {
+  margin: 10px 0px;
+  padding: 18px 25px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+#footer .footer-left .input2 {
+  margin: 10px 10px;
+  padding: 18px 25px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+#footer .footer-left button {
+  padding: 15px 30px;
+  border-radius: 10px;
+  background: #3b5d50;
+  border: none;
+}
+#footer .footer-left button i {
+  font-size: 20px;
+  color: white;
+}
+#footer .footer-right img {
+  width: 50%;
+}
+
+.big-text {
+  display: flex;
+  padding: 30px 50px;
+}
+.big-text .big h2 {
+  font-size: 35px;
+}
+.big-text .big p {
+  color: gray;
+}
+.big-text .big .icons {
+  padding: 30px 0px;
+}
+.big-text .big .icons button {
+  padding: 12px 12px;
+  border-radius: 20px;
+  background-color: #dce5e4;
+  color: #3b5d50;
+  border: none;
+}
+.big-text .big .icons button i {
+  font-size: 15px;
+}
+.big-text .big-about {
+  margin: 30px 86px;
+}
+.big-text .big-about ul {
+  list-style: none;
+}
+.big-text .big-about ul li {
+  margin: 5px 0px;
+  font-size: 18px;
+}
+
+.xett {
+  margin: 0px 50px;
+}
+
+.footer-last {
+  display: flex;
+  padding: 80px 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-last .footer-text1 {
+  color: gray;
+}
+.footer-last .footer-text2 {
+  color: gray;
+}
+
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    gap: 25px;
+  }
+  main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  #section1 {
+    grid-template-columns: 1fr;
+  }
+}
